@@ -4,16 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .people-list {
+            list-style: none;
+        }
+
+        .people-list-item::before {
+            content: "\2192";
+            margin-right: 10px;
+        }
+    </style>
 </head>
 <body>
+
         <div id="top-menu"></div>
-        <script>
+        <script type="module" src="./main.js">
             /*
             задание:
             1. Опишите функции createList (создает DOM-элемент - список),
             createMenu (создает DOM-элемент - меню) в одном файле.
             2. После описания - экспортируйте их обе.
-            3. В этом файле импортируйте createMenu как функцию renderMenu и нарисуйте меню с ее помощью.
+            3. В этом файле импортируйте createMenu как функцию renderMenu и 
+            нарисуйте меню с ее помощью.
             */
         </script>
 </body>

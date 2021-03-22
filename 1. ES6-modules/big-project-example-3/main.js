@@ -1,2 +1,1 @@
-import {createElement} from "./scripts/createElement.js";
-console.log(createElement);
+import {createList, createElement, gallery} from "./scripts/index";
